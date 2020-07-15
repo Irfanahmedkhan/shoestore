@@ -1,0 +1,43 @@
+{
+  "Nike Todos": {
+    "name": "Nike Todos",
+    "img": "https://m.media-amazon.com/images/I/71iIwQojP7L._AC_UY218_.jpg",
+    "price" : 55
+  },
+  "Nike": {
+    "name": "EMPORIO ARMANI",
+    "img": "https://m.media-amazon.com/images/I/61l9eRmmVrL._AC_UY218_.jpg",
+    "price": 35
+
+  },
+  "Nike NIKE COURT LITE 2": {
+    "name": "Nike NIKE COURT LITE 2",
+    "img": "https://m.media-amazon.com/images/I/71pOinkv-6L._AC_UY218_.jpg",
+    "price": 40
+  },
+  "SKECHERS Depth Charge": {
+    "name": "SKECHERS Depth Charge",
+    "img": "https://m.media-amazon.com/images/I/61ImHxySJhL._AC_UY218_.jpg",
+    "price": 30
+  },
+  "Nike Tanjun Men’s Shoes": {
+    "name": "Nike Tanjun Men’s Shoes",
+    "img": "https://m.media-amazon.com/images/I/81KUyBcdLjL._AC_UY218_.jpg",
+    "price": 65
+  },
+  "PUMA Pure Jogger": {
+    "name": "PUMA Pure Jogger",
+    "img": "https://m.media-amazon.com/images/I/71bg6rbuAfL._AC_UY218_.jpg",
+    "price": 40
+  },
+  "Geox U Deiven A Tumblea": {
+    "name": "Geox U Deiven A Tumblea",
+    "img": "https://m.media-amazon.com/images/I/61foWKigK-L._AC_UY218_.jpg",
+    "price": 60
+  },
+  "Geox U KAVEN": {
+    "name": "Geox U KAVEN",
+    "img": "https://m.media-amazon.com/images/I/61x-hm-TofL._AC_UY218_.jpg",
+    "price": 45
+  }
+}

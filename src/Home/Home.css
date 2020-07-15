@@ -1,0 +1,38 @@
+ body {
+     background-color: lightgrey;
+     background-image: url('../Pictures/Shoes/back.jpg');
+     background-size: cover;
+ }
+
+ .home {
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+ }
+
+ .home h3 {
+     font-size: 30px;
+     background-color: rgb(59, 112, 226);
+     font-style: normal;
+     height: 45px;
+     margin-top: 0px;
+     color: white;
+ }
+
+ .home-men, .home-women {
+     background-image: url('../Pictures/Shoes/men/m2.jpg');
+     width: 300px;
+     margin: 20px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 200px;
+     border-radius: 15px;
+     -webkit-background-size: 100% 100%;
+     -moz-background-size: 100% 100%;
+     -o-background-size: 100% 100%;
+     background-size: 100% 100%;
+ }
+
+ .home-women {
+     background-image: url('../Pictures/Shoes/women/w2.jpg');
+ }

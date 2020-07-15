@@ -1,0 +1,83 @@
+{
+  "Nike Todos": {
+    "name": "Nike Todos",
+    "img": "https://m.media-amazon.com/images/I/71iIwQojP7L._AC_UY218_.jpg",
+    "price" : 55
+  },
+  "Nike": {
+    "name": "EMPORIO ARMANI",
+    "img": "https://m.media-amazon.com/images/I/61l9eRmmVrL._AC_UY218_.jpg",
+    "price": 35
+
+  },
+  "Nike NIKE COURT LITE 2": {
+    "name": "Nike NIKE COURT LITE 2",
+    "img": "https://m.media-amazon.com/images/I/71pOinkv-6L._AC_UY218_.jpg",
+    "price": 40
+  },
+  "SKECHERS Depth Charge": {
+    "name": "SKECHERS Depth Charge",
+    "img": "https://m.media-amazon.com/images/I/61ImHxySJhL._AC_UY218_.jpg",
+    "price": 30
+  },
+  "Nike Tanjun Men’s Shoes": {
+    "name": "Nike Tanjun Men’s Shoes",
+    "img": "https://m.media-amazon.com/images/I/81KUyBcdLjL._AC_UY218_.jpg",
+    "price": 65
+  },
+  "PUMA Pure Jogger": {
+    "name": "PUMA Pure Jogger",
+    "img": "https://m.media-amazon.com/images/I/71bg6rbuAfL._AC_UY218_.jpg",
+    "price": 40
+  },
+  "Geox U Deiven A Tumblea": {
+    "name": "Geox U Deiven A Tumblea",
+    "img": "https://m.media-amazon.com/images/I/61foWKigK-L._AC_UY218_.jpg",
+    "price": 60
+  },
+  "Geox U KAVEN": {
+    "name": "Geox U KAVEN",
+    "img": "https://m.media-amazon.com/images/I/61x-hm-TofL._AC_UY218_.jpg",
+    "price": 45
+  },
+  "Ted Baker": {
+    "name": "Ted Baker",
+    "img": "https://m.media-amazon.com/images/I/514-jJ5KMuL._AC_UL320_.jpg",
+    "price": 55
+  },
+  "Lacoste": {
+    "name": "Lacoste",
+    "img": "https://m.media-amazon.com/images/I/61YZ65zy6wL._AC_UL320_.jpg",
+    "price": 35
+  },
+  "Ted Baker 2": {
+    "name": "Ephielp Trainers",
+    "img": "https://m.media-amazon.com/images/I/719GH8sZJ0L._AC_UL320_.jpg",
+    "price": 40
+  },
+  "Lacoste": {
+    "name": "Rey Fashion Sneakers",
+    "img": "https://m.media-amazon.com/images/I/51MVzaqJTsL._AC_UL320_.jpg",
+    "price": 30
+  },
+  "TOMS Canvas Classics": {
+    "name": "TOMS Canvas Classics",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/61JCcxAWy2L._AC_UL200_SR200,200_.jpg",
+    "price": 65
+  },
+  "PUMA Pure Jogger": {
+    "name": "PUMA Pure Jogger",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/71VdMNbRPkL._AC_UL200_SR200,200_.jpg",
+    "price": 40
+  },
+  "Geox U Deiven A Tumblea": {
+    "name": "Geox U Deiven A Tumblea",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/714FCtkNvhL._AC_UL200_SR200,200_.jpg",
+    "price": 60
+  },
+  "Geox U KAVEN": {
+    "name": "Geox U KAVEN",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/61ug3R%2B00KL._AC_UL200_SR200,200_.jpg",
+    "price": 45
+  }
+}

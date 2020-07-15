@@ -1,0 +1,35 @@
+.men {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menshoes {
+    margin: 15px;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    border-radius: 15px;
+    width: 200px;
+    border: 2px solid rgb(0, 104, 202);
+    height: 300px;
+    position: relative;
+}
+
+.menshoes:hover {
+
+}
+
+.img img {
+    width: 150px;
+    margin-top: 10%;
+}
+
+.img {
+    height: 150px;
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
