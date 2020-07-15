@@ -10,6 +10,7 @@ import Notfound from "./Notfound/Notfound";
 import Men from './Products/Men'
 import Productindex from './Products/Productindex'
 import Women from './Products/Women'
+import Productdetail from './Products/Productdetail'
 
 function App() {
   return (
@@ -20,8 +21,9 @@ function App() {
           <Route path="Products" element={<Products />}>
 
           <Route path='/' element={<Productindex />} />
-          <Route path='/:id' element={<Men />} />
+          <Route path='/Men' element={<Men />} />
           <Route path='/Women' element={<Women />} />
+          <Route path='/Productdetail/:id' element={<Productdetail />} />
           
           </Route> 
         <Route path="About" element={<About />} />
