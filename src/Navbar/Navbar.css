@@ -1,7 +1,18 @@
 .navbar {
     display: flex;
+    color: white;
     justify-content: space-between;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 104, 202);
     padding-right: 40px;
     padding-left: 40px;
+}
+
+.link {
+    color: white;
+    font-size: 1rem;
+}
+
+.link:hover {
+    color: white;
+    font-style: italic;
 }

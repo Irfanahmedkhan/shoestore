@@ -7,29 +7,53 @@
 .menshoes {
     margin: 15px;
     background-color: rgb(255, 255, 255);
-    background-size: cover;
     border-radius: 15px;
     width: 200px;
-    border: 2px solid rgb(0, 104, 202);
-    height: 300px;
+    height: 260px;
     position: relative;
 }
 
-.menshoes:hover {
-
+.menshoes {
+    transition: all .2s ease-in-out;
 }
 
-.img img {
+.menshoes:hover {
+    transform: scale(1.05);
+}
+
+.image img {
     width: 150px;
     margin-top: 10%;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
 }
 
-.img {
-    height: 150px;
+.image {
 }
 
-.text {
+.name {
+    padding: 10px;
+    font-size: 20px;
+    font-style: unset;
+    color: black;
+    font-weight: 800;
+}
+
+.price {
     position: absolute;
     width: 100%;
-    bottom: 10px;
+    bottom: 40px;
+    color: black;
+    font-style: italic;
+}
+
+.cart {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+a {
+    text-decoration: none;
 }

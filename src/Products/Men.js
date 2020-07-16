@@ -14,24 +14,28 @@ function Men() {
       {Object.keys(Menshoes).map((key) => {
         const menshoes = Menshoes[key];
         return (
-            <Link to={`/Products/Productdetail/${key}`} className="menshoes" key={key}>
-              <h3>{menshoes.name}</h3>
-              <div className="img">
-                <img src={menshoes.img} alt={key} />
-              </div>
+          <Link
+            to={`/Products/Productdetail/${key}`}
+            className="menshoes"
+            key={key}
+          >
+            <div className="name">{menshoes.name}</div>
+            <div className="image">
+              <img src={menshoes.img} alt={key} />
+            </div>
 
-              <div className="text">
-                <h4> Price : ${menshoes.price}</h4>
-                <Button
-                  variant="contained"
-                  color="secondary"
-                  startIcon={<AddShoppingCartIcon />}
-                  fullWidth
-                >
-                  Add to cart
-                </Button>
-              </div>
-            </Link>
+            <div className="price">Price : ${menshoes.price}</div>
+            <div className="cart">
+              <Button
+                variant="contained"
+                color="secondary"
+                startIcon={<AddShoppingCartIcon />}
+                fullWidth
+              >
+                Add to cart
+              </Button>
+            </div>
+          </Link>
         );
       })}
     </div>

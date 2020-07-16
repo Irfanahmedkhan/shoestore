@@ -1,5 +1,7 @@
 import React from "react";
 import './Men.css'
+import { Link } from "react-router-dom";
+
 
 import Womenshoes from "./Womenshoes.json";
 
@@ -15,13 +17,14 @@ function Women() {
             {Object.keys(Womenshoes).map((key) => {
                 const Women = Womenshoes[key];
                 return (
-                    <div className='menshoes' key={key}>
-                        <h3>{Women.name}</h3>
-                        <div className='img'><img src={Women.img} alt={key} /></div>
+                    <Link to={`/Products/Productdetail/${key}`}className='menshoes' key={key}>
+                        <div className="name">{Women.name}</div>
+                        <div className="image">
+                            <img src={Women.img} alt={key} />
+                        </div>
 
-                        <div className='text'>
-
-                            <h4> Price : ${Women.price}</h4>
+                        <div className="price">Price : ${Women.price}</div>
+                        <div className="cart">
                             <Button
                                 variant="contained"
                                 color="secondary"
@@ -34,7 +37,7 @@ function Women() {
                         </div>
 
 
-                    </div>
+                    </Link>
                 );
             })}
         </div>

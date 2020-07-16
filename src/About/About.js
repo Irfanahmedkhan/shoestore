@@ -1,9 +1,12 @@
 import React from 'react'
 
+
 function About() {
     return (
-        <div>
-            Welcome to About
+        <div style = {{color: 'white', fontSize:40}}>
+
+
+Something About
         </div>
     )
 }

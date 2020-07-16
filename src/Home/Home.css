@@ -10,11 +10,19 @@
      flex-direction: row;
  }
 
+ .home-men, .home-women {
+     transition: all .2s ease-in-out;
+ }
+
+ .home-men:hover, .home-women:hover {
+     transform: scale(1.05);
+ }
+
  .home h3 {
      font-size: 30px;
      background-color: rgb(59, 112, 226);
      font-style: normal;
-     height: 45px;
+     height: 40px;
      margin-top: 0px;
      color: white;
      padding: 5px;
@@ -23,15 +31,16 @@
  .home-men, .home-women {
      background-image: url('../Pictures/Shoes/men/m2.jpg');
      width: 300px;
-     margin: 20px;
+     margin: 50px;
      background-size: cover;
      background-repeat: no-repeat;
-     height: 200px;
-     border-radius: 15px;
+     height: 250px;
+     border-radius: 20px;
      -webkit-background-size: 100% 100%;
      -moz-background-size: 100% 100%;
      -o-background-size: 100% 100%;
      background-size: 100% 100%;
+     margin-top: 10%;
  }
 
  .home-women {

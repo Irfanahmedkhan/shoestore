@@ -9,6 +9,7 @@ function Products() {
        <div className='offer'></div>
 
       <nav style={{ display: "Flex", color: 'white', justifyContent: "space-evenly", backgroundColor: "rgb(0, 104, 202)" }} >
+        <Link style={{color: 'white'}} to="/Products/"><h3>All</h3></Link>
         <Link style={{color: 'white'}} to="/Products/Men"><h3>Men</h3></Link>
         <Link style={{ color: 'white' }} to="/Products/Women"><h3>Women</h3></Link>
 
